@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#top{
+    height: 55px;
+    width: 100%;
+    background-color: #191970;
+}
+body{
+    background-image: url("banner.jpg");
+   background-position: right center;
+}
+.nav__links li{
+    list-style: none;
+    padding: 18px;
+    display: inline;
+    color: white;
+    font-family: "Nunito";
+    cursor: pointer;
+}
+.nav__links li:hover{
+   background-color: darkslategrey;
+}
+
+#list{
+    padding-left: 35%;
+    padding-top: 17px;
+    padding-right: 10px;
+    width: 45%;
+    height: 30px;
+    background-color: black;
+}
+#home{
+    color: #FFA07A;
+}
+button{
+   margin-left: 90%;
+   margin-top: 2px;
+}
+header {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #191970;
+}
+.logo{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border-color:#FFA07A ;
+    color: white;
+    background-color:#FFA07A ;
+    cursor: pointer;
+    font-family: "Nunito";
+}
+#loWord{
+    font-family: "Nunito";
+    color: white;
+    padding-right: 300px;
+}
+.LargeP{
+    color: aliceblue;
+    
+    font-size: 50px;
+}
+.SmallP{
+    color: aliceblue;  
+    font-family:"Nunito" ;  
+}
+.text{
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 50%;
+}
+.REG{
+    width: 210px;
+    margin-left: 130px;
+    border-radius: 4px;
+}
+.DOWNLOAD{
+    width: 210px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
